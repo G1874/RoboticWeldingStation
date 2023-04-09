@@ -1,0 +1,52 @@
+2023:01:23 18:39:21	:Syntax check Error
+	:Program	:PICKANDPLACE(Command:2)	:RC1	:Robot	:2 For W = 24 To 33 [1]	:Syntax error
+	:Program	:PICKANDPLACE(Command:3)	:RC1	:Robot	:3 M_Out(W) = 0	:Syntax error
+	:Program	:PICKANDPLACE(Command:4)	:RC1	:Robot	:4 Next W	:Syntax error
+2023:01:23 22:23:14	:Syntax check Error
+	:Program	:PICKANDPLACE(Command:7)	:RC1	:Robot	:7 For M2 = 0 To 8[2]	:Syntax error
+2023:01:23 23:10:00	:Syntax check Error
+	:Program	:PICKANDPLACE(Command:8)	:RC1	:Robot	:8    Select M2 % 2	:Syntax error
+2023:01:23 23:14:38	:Syntax check Error
+	:Program	:PICKANDPLACE(Command:35)	:RC1	:Robot	:35Next M2	:FOR NEXT statements unmatch
+2023:01:23 23:22:32	:Syntax check Error
+	:Program	:PICKANDPLACE(Command:26)	:RC1	:Robot	:26    M_Out(24+M2)	:Syntax error
+	:Program	:PICKANDPLACE(Command:30)	:RC1	:Robot	:30    HOpen	:Syntax error
+	:Program	:PICKANDPLACE(Command:32)	:RC1	:Robot	:32    M_Out(22+M3)	:Syntax error
+	:Program	:PICKANDPLACE(Command:35)	:RC1	:Robot	:35    Mvs P2,20+50*(M2	:Syntax error
+	:Program	:PICKANDPLACE(Command:38)	:RC1	:Robot	:38    M_Out(33+M2)	:Syntax error
+	:Program	:PICKANDPLACE(Command:39)	:RC1	:Robot	:39    Mvs P0,20+50*(M2	:Syntax error
+	:Program	:PICKANDPLACE(Command:45)	:RC1	:Robot	:45    M_Out(44-M3)	:Syntax error
+2023:01:23 23:22:47	:Syntax check Error
+	:Program	:PICKANDPLACE(Command:26)	:RC1	:Robot	:26    M_Out(24+M2)	:Syntax error
+	:Program	:PICKANDPLACE(Command:30)	:RC1	:Robot	:30    HOpen	:Syntax error
+	:Program	:PICKANDPLACE(Command:32)	:RC1	:Robot	:32    M_Out(22+M3)	:Syntax error
+	:Program	:PICKANDPLACE(Command:38)	:RC1	:Robot	:38    M_Out(33+M2)	:Syntax error
+	:Program	:PICKANDPLACE(Command:45)	:RC1	:Robot	:45    M_Out(44-M3)	:Syntax error
+2023:01:23 23:23:27	:Syntax check Error
+	:Program	:PICKANDPLACE(Command:26)	:RC1	:Robot	:26    M_Out(24+M2)	:Syntax error
+	:Program	:PICKANDPLACE(Command:32)	:RC1	:Robot	:32    M_Out(22+M3)	:Syntax error
+	:Program	:PICKANDPLACE(Command:38)	:RC1	:Robot	:38    M_Out(33+M2)	:Syntax error
+	:Program	:PICKANDPLACE(Command:45)	:RC1	:Robot	:45    M_Out(44-M3)	:Syntax error
+2023:01:24 00:38:14	:Syntax check Error
+	:Program	:PICKANDPLACE(Command:39)	:RC1	:Robot	:39            M_Out(22) = 0;	:Syntax error
+	:Program	:PICKANDPLACE(Command:40)	:RC1	:Robot	:40            M_Out(44) = 0;	:Syntax error
+	:Program	:PICKANDPLACE(Command:45)	:RC1	:Robot	:45            M_Out(23) = 0;	:Syntax error
+	:Program	:PICKANDPLACE(Command:46)	:RC1	:Robot	:46            M_Out(43) = 0;	:Syntax error
+2023:01:24 00:57:09	:Syntax check Error
+	:Program	:PICKANDPLACE(Command:41)	:RC1	:Robot	:41        Mvs P8,	:Syntax error
+2023:01:24 00:57:19	:Syntax check Error
+	:Program	:PICKANDPLACE(Command:41)	:RC1	:Robot	:41        Mvs P8,	:Syntax error
+2023:01:24 01:39:44	:Syntax check Error
+	:Program	:WELDING(Command:3)	:RC2	:Robot	:3 Mvc P4	:Syntax error
+	:Program	:WELDING(Command:5)	:RC2	:Robot	:5 Mvc P2	:Syntax error
+	:Program	:WELDING(Command:7)	:RC2	:Robot	:7 Mvc P6	:Syntax error
+2023:01:24 21:42:48	:Syntax check Error
+	:Program	:WELDING(Command:12)	:RC2	:Robot	:12 M_Out(2)	:Syntax error
+2023:01:24 23:17:24	:Syntax check Error
+	:Program	:WELDING(Command:8)	:RC2	:Robot	:8Select M_In(12)	:Nesting over
+2023:01:24 23:20:50	:Syntax check Error
+	:Program	:WELDING(Command:16)	:RC2	:Robot	:16        W = -100	:Syntax error
+	:Program	:WELDING(Command:25)	:RC2	:Robot	:25        W = -10	:Syntax error
+	:Program	:WELDING(Command:31)	:RC2	:Robot	:31 Mov Pp2,W	:Syntax error
+2023:01:25 02:45:24	:Syntax check Error
+	:Program	:PICKANDPLACE(Command:116)	:RC1	:Robot	:116    Accel 1 1	:Syntax error
